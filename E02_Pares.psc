@@ -66,29 +66,27 @@ Proceso Ejercicio_2
 		
 	FinPara
 	
-Escribir "El porcentaje de veces que el promedio es menor que la media geométrica es: ", (contador/n)*100, "%"
+    Escribir "El porcentaje de veces que el promedio es menor que la media geométrica es: ", (contador/n)*100, "%"
 
-// Escribir el primer par de valores donde el promedio = media geométrica
+    // Escribir el primer par de valores donde el promedio = media geométrica
 
-Escribir ""
-Escribir "===================================="
-Escribir ""
-
-
-
-Para n=0 Hasta (n-1) Con Paso 1 Hacer
-	si prom[n] = mg[n] Entonces
-		si primer_par=0 Entonces
-			Escribir "El primer par de valores en el que el promedio es igual a la media geométrica es: ", x1[n], ",", x2[n]
-			primer_par=1
-		FinSi
-		
-	FinSi
-
-FinPara
+    Escribir ""
+    Escribir "===================================="
+    Escribir ""
+    
+    
+    
+    Para n=0 Hasta (n-1) Con Paso 1 Hacer
+	    si prom[n] = mg[n] Entonces
+		    si primer_par=0 Entonces
+			    Escribir "El primer par de valores en el que el promedio es igual a la media geométrica es: ", x1[n], ",", x2[n]
+			    primer_par=1
+		    FinSi
+	    FinSi
+    FinPara
 
 
-//corregir lo del primer par
+
 FinProceso
 
 

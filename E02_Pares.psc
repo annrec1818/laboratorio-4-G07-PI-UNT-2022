@@ -81,7 +81,7 @@ Proceso Ejercicio_2
 			    primer_par=1
 		    FinSi
 	    FinSi
-    FinPara
+	FinPara
 
 
 
